@@ -10,7 +10,6 @@ form.addEventListener('submit', (e)=>{
     ratingButtons.forEach(radio => {
         if (radio.checked) {
             selectedValue.innerHTML = radio.value;
-            console.log(radio.parentNode);
             card.classList.toggle('hide');
             cardThanks.classList.toggle('show');
         }
